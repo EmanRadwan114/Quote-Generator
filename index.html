@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Quote Generator Website work when you click on the button and generate new quote for you"
+    />
+    <meta name="keywords" content="quote generator, quotes website" />
+    <!-- Website Title -->
+    <title>Quote Generator</title>
+    <!-- Bootstrap CSS File Link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main css file link -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- start of quote generator HTML Elements -->
+    <div class="quotes mt-5">
+      <div class="container-sm">
+        <div class="quotes-content text-center">
+          <h1 class="quotes-sec-title text-capitalize fw-bolder text-dark mb-5">
+            quote of the day
+          </h1>
+          <p class="quotes-sec-desc fs-2 text-muted fw-medium mb-5">
+            Press the button below to recieve a random quote!
+          </p>
+          <div class="quotes-btn">
+            <button
+              class="btn btn-info text-capitalize fw-bold btn-lg mb-5 border-0"
+              id="quoteBtn"
+            >
+              new quote
+            </button>
+          </div>
+          <div class="single-quote text-dark">
+            <p
+              class="quote-content w-100 fw-medium mx-auto mb-3 fst-italic"
+              id="quoteDesc"
+            ></p>
+            <h2
+              class="quote-author text-capitalize fs-4 fw-bold"
+              id="authorName"
+            ></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of quote generator HTML Elements -->
+    <!-- bootstrap js file script code -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- main js file script code -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

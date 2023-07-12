@@ -1,0 +1,49 @@
+/* start of general styling */
+body {
+  background-color: rgb(246, 245, 242) !important;
+}
+/* end of general styling */
+
+/* start of common styling */
+.quotes-sec-desc,
+.quote-author,
+.quote-content {
+  font-family: "Times New Roman", Times, serif;
+}
+/* end of common styling */
+
+/* start of quotes section */
+
+.quotes-sec-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: calc(3rem + 1.5vw);
+}
+
+.btn {
+  padding: 25px calc(3rem + 0.75vw) !important;
+  transition: background-color 500ms, color 500ms;
+}
+
+.btn:hover {
+  background-color: #026477 !important;
+  color: white !important;
+}
+
+.quote-content {
+  font-size: calc(1.2rem + 0.5vw);
+}
+/* start of media query */
+@media screen and (min-width: 768px) {
+  .quote-content {
+    width: 75% !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .quote-content {
+    width: 65% !important;
+  }
+}
+
+/* end of media query */
+/* end of quotes section */
